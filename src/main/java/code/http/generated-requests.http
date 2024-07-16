@@ -1,9 +1,9 @@
 ###
-POST http://localhost:8080/user/add?userId=2&userName=huangjie
+POST http://localhost:8080/user/add?userId=1&userName=cxk
 Content-Type: application/x-www-form-urlencoded
 
 ###
-POST http://localhost:8080/user/add?userId=1&userName=cxk
+POST http://localhost:8080/user/add?userId=2&userName=huangjie
 Content-Type: application/x-www-form-urlencoded
 
 ###

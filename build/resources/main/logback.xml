@@ -23,10 +23,9 @@
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ALL</level>
         </filter>
-        <append>false</append>>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- switch log files by day -->
-            <fileNamePattern>src/main/log/%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>src/log/%d{yyyy-MM-dd}.log</fileNamePattern>
             <!-- Maximum number of log archive files to keep -->
             <maxHistory>7</maxHistory>
             <totalSizeCap>1GB</totalSizeCap>
