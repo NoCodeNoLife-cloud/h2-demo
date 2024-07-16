@@ -30,6 +30,11 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
     implementation("org.springframework.boot:spring-boot-starter-web:3.2.5")
+
+    // https://mvnrepository.com/artifact/net.java.dev.jna/jna
+    implementation("net.java.dev.jna:jna:5.14.0")
+    // https://mvnrepository.com/artifact/net.java.dev.jna/jna-platform
+    implementation("net.java.dev.jna:jna-platform:5.14.0")
 }
 
 tasks.test {
